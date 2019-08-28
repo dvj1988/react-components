@@ -1,0 +1,12 @@
+.star {
+  color: var(--azul);
+}
+
+.medium {
+  height: 32px !important;
+  width: 32px !important;
+}
+
+.wrapper {
+  display: inline-block;
+}
