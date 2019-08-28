@@ -1,3 +1,3 @@
-#React Components
+# React Components
 
 Collection of special react components
