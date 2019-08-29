@@ -1,7 +1,6 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import OtpInput from "./";
-import "../../styles/common.css";
 
 storiesOf("Components/OTP Input", module)
   .add("6 numbers", () => {

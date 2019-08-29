@@ -27,15 +27,15 @@
 .wrapper {
   cursor: pointer;
   display: inline-block;
-  border: 2px solid var(--gunmetal);
+  border: 2px solid #cccccc;
   border-radius: 3px;
   padding: 6px 40px;
   position: relative;
 }
 .wrapper.active {
-  border: 2px solid var(--azul);
+  border: 2px solid cornflowerblue;
 }
 
 .wrapper.error {
-  border: 2px solid var(--errorred) !important;
+  border: 2px solid red !important;
 }
