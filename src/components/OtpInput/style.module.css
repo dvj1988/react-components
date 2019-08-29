@@ -1,0 +1,41 @@
+.partition {
+  border-bottom: 1px solid black;
+  width: 12px;
+  margin-right: 4px;
+  display: inline-block;
+  background: white;
+  pointer-events: all;
+  height: 26px;
+  vertical-align: middle;
+  z-index: 1;
+  font-size: 26px;
+}
+
+.hiddenInput {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+.wrapper {
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid var(--gunmetal);
+  border-radius: 3px;
+  padding: 6px 40px;
+  position: relative;
+}
+.wrapper.active {
+  border: 2px solid var(--azul);
+}
+
+.wrapper.error {
+  border: 2px solid var(--errorred) !important;
+}
