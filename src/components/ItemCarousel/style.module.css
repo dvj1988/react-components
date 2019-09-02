@@ -1,0 +1,27 @@
+.item {
+  height: 118px;
+  width: 142px;
+  display: inline-block;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.controlActive {
+  color: var(--azul) !important;
+  cursor: pointer;
+}
+.controlButton {
+  color: var(--lightgrey);
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.carouselWrapper {
+  max-width: calc(100% - 70px);
+  display: inline-block;
+}
