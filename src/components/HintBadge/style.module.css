@@ -1,0 +1,13 @@
+.wrapper {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border-radius: 9px;
+  background: gold;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 17px;
+  cursor: pointer;
+}
