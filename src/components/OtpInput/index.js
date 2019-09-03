@@ -28,7 +28,7 @@ class OtpInput extends Component {
   };
 
   render() {
-    const { length = 6, error = false } = this.props;
+    const { length = 6, error = false, className = "" } = this.props;
     const { values, active } = this.state;
     const nodes = [];
 
@@ -44,10 +44,14 @@ class OtpInput extends Component {
     }
     return (
       <div
-        className={clsx(styles.wrapper, {
-          [styles.active]: active,
-          [styles.error]: error
-        })}
+        className={clsx(
+          styles.wrapper,
+          {
+            [styles.active]: active,
+            [styles.error]: error
+          },
+          className
+        )}
       >
         {nodes}
         <input
