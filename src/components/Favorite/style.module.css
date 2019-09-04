@@ -1,0 +1,16 @@
+.favoriteOutline {
+  color: var(--steelgrey);
+}
+.favorite {
+  color: red;
+}
+.favoriteOutline:hover {
+  color: red;
+}
+.favorite,
+.favoriteOutline {
+  cursor: pointer;
+  height: 32px !important;
+  width: 32px !important;
+  align-items: center;
+}
