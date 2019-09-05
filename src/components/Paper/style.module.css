@@ -1,5 +1,5 @@
 .paper {
-  border: 1px solid var(--lightgrey);
-  box-shadow: 0px 16px 24px var(--paper-boxshadow);
+  border: 1px solid lightgray;
+  box-shadow: 0px 16px 24px lightgray;
   border-radius: 3px;
 }
