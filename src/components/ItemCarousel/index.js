@@ -14,7 +14,7 @@ const Carousel = ({ imageUrls = [], onClick }) => {
   };
 
   const handleScrollRight = () => {
-    if (activeItemIndex + 3 < imageUrls.length) {
+    if (activeItemIndex + 4 < imageUrls.length) {
       changeActiveItem(activeItemIndex + 1);
     }
   };
@@ -52,7 +52,7 @@ const Carousel = ({ imageUrls = [], onClick }) => {
       </div>
       <RightIcon
         className={clsx(styles.controlButton, {
-          [styles.controlActive]: activeItemIndex + 3 < imageUrls.length
+          [styles.controlActive]: activeItemIndex + 4 < imageUrls.length
         })}
         onClick={handleScrollRight}
       />

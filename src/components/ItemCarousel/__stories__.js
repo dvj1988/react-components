@@ -13,7 +13,7 @@ storiesOf("Components", module).add("Carousel", () => {
         columnGap: "30px"
       }}
     >
-      <div style={{ width: "500px", marginLeft: "20px" }}>
+      <div style={{ width: "590px", marginLeft: "20px" }}>
         <Carousel
           onClick={(url, index) => {
             console.log(url, index);

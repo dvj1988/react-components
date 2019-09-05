@@ -7,15 +7,17 @@
 }
 
 .controlActive {
-  color: var(--azul) !important;
+  color: cornflowerblue !important;
   cursor: pointer;
 }
 .controlButton {
-  color: var(--lightgrey);
+  color: lightgray;
   width: 32px !important;
   height: 32px !important;
 }
-
+.controlActive:hover {
+  color: lightskyblue;
+}
 .wrapper {
   display: flex;
   align-items: center;
