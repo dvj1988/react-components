@@ -13,7 +13,7 @@
     "react-dom": "^16.8.6",
     "react-items-carousel": "^2.3.7",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,7 +43,7 @@
     "@storybook/addon-links": "^5.1.9",
     "@storybook/addon-viewport": "^5.1.11",
     "@storybook/addons": "^5.1.9",
-    "@storybook/react": "^5.1.9",
+    "@storybook/react": "^6.5.13",
     "storybook-react-router": "^1.0.5"
   }
 }
